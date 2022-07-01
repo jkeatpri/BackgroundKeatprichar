@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">BackgroundKeatprichar</string>
+    <string name="hello_keatprichar">Hello Keatprichar!</string>
+    <string name="enter_name">Enter Name</string>
+    <string name="Name">Name</string>
+    <string name="switch">Switch</string>
+    <string name="change">Change!</string>
+    <string name="todo">TODO</string>
+    <string name="day_mode">Day Mode</string>
+    <string name="from_cit">From CIT</string>
+    <string name="male">Male</string>
+    <string-array name="user_type">
+        <item name ="admin">Admin</item>
+        <string name="Admin">admin</string>
+    </string-array>
+</resources>

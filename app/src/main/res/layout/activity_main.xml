@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="cursive"
+        android:text="@string/hello_keatprichar"
+        android:textColor="#6E3434"
+        android:textSize="60sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.024" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autofillHints=""
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:text="Enter name"
+        tools:layout_editor_absoluteX="149dp"
+        tools:layout_editor_absoluteY="136dp" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="210dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName"
+        tools:layout_editor_absoluteX="149dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Name"
+        tools:layout_editor_absoluteX="85dp"
+        tools:layout_editor_absoluteY="156dp" />
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/day_mode"
+        tools:layout_editor_absoluteX="300dp"
+        tools:layout_editor_absoluteY="89dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/todo"
+        app:srcCompat="?android:attr/alertDialogIcon"
+        tools:layout_editor_absoluteX="168dp"
+        tools:layout_editor_absoluteY="582dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="185dp"
+        android:layout_height="48dp"
+        android:text="@string/change"
+        tools:layout_editor_absoluteX="105dp"
+        tools:layout_editor_absoluteY="632dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="100dp"
+        android:layout_height="49dp"
+        android:layout_marginEnd="16dp"
+        android:text="@string/from_cit"
+        app:layout_constraintEnd_toStartOf="@+id/radioGroup"
+        tools:layout_editor_absoluteY="289dp" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="261dp"
+        android:layout_height="91dp"
+        tools:layout_editor_absoluteX="122dp"
+        tools:layout_editor_absoluteY="265dp">
+
+        <RadioButton
+            android:id="@+id/radioButton"
+            android:layout_width="81dp"
+            android:layout_height="48dp"
+            android:text="@string/male" />
+
+        <RadioButton
+            android:id="@+id/radioButton2"
+            android:layout_width="96dp"
+            android:layout_height="47dp"
+            android:text="Female" />
+
+    </RadioGroup>
+
+    <RadioGroup
+        android:layout_width="259dp"
+        android:layout_height="191dp"
+        tools:layout_editor_absoluteX="122dp"
+        tools:layout_editor_absoluteY="358dp">
+
+        <RadioButton
+            android:id="@+id/radioButton3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="RadioButton"
+            tools:text="1st" />
+
+        <RadioButton
+            android:id="@+id/radioButton4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="RadioButton"
+            tools:text="2nd" />
+
+        <RadioButton
+            android:id="@+id/radioButton5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3rd" />
+
+        <RadioButton
+            android:id="@+id/radioButton6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4th" />
+    </RadioGroup>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
